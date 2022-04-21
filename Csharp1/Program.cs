@@ -68,8 +68,8 @@ namespace Csharp1
              * |default value |Wrong value! Please give a day of a week|
              * ---------------------------------------------------------
              */
-
-            switch (day)
+             string dayToLowerCase = day.ToLower();
+            switch (dayToLowerCase)
             {
                 case "Monday":
                     Console.WriteLine("1");
